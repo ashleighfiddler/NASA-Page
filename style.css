@@ -27,8 +27,7 @@ header {
 }
 main { 
     background-color: darkgrey;
-    display: flex;
-    justify-content: space-around;
+    display: flex;    
     height: 324px;
     width: 850px;
     font-family: 'Exo 2', sans-serif;
@@ -36,18 +35,18 @@ main {
 }
 .contact-stuff {
     height: 270px;
-    width: 270px;
+    width: 350px;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center; 
-      
+    
 
 }
 
 .socialmedia {
-    width: 250px;
+
     display: flex;
     flex-direction: row; 
     justify-content: space-evenly;   
@@ -55,6 +54,10 @@ main {
     padding: 20px;
 }
 
+.input {
+    font-size: 8pt;
+    color:white;
+}
 img {
     height: 20px;
     margin: 5px;
